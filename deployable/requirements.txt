@@ -1,0 +1,2 @@
+first-shared @ file:///D:/PyProjects/pulumi-poetry-sub-projects-error/shared-libs/first-shared; python_version >= "3.8" and python_version < "4.0"
+second-shared @ file:///D:/PyProjects/pulumi-poetry-sub-projects-error/shared-libs/second-shared; python_version >= "3.8" and python_version < "4.0"

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pulumi-poetry-sub-projects-error"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pulumi = "^3.6.1"
+pulumi-gcp = "^5.11.0"
+first-shared = { path="./shared-libs/first-shared", develop=true }
+second-shared = { path="./shared-libs/second-shared", develop=true }
+deployable = { path="./deployable", develop=true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

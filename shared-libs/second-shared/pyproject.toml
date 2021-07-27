@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "second-shared"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+first-shared = "*"
+
+[tool.poetry.dev-dependencies]
+first-shared = { path="../first-shared", develop=true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

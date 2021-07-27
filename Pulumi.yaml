@@ -1,0 +1,6 @@
+name: pulumi-poetry-sub-projects-error
+runtime:
+  name: python
+  options:
+    virtualenv: .venv
+description: Example project

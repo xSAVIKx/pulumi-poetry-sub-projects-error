@@ -1,0 +1,20 @@
+[[package]]
+name = "first-shared"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.8"
+develop = true
+
+[package.source]
+type = "directory"
+url = "../first-shared"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "ce4d50a45e688e61d2c269f587c97222bd52b5aff9228c1a5dbe8f205642d121"
+
+[metadata.files]
+first-shared = []
